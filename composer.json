@@ -1,0 +1,24 @@
+{
+  "name": "orbit-core/kernel",
+  "description": "Orbit Core: Kernel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mike Bertram",
+      "email": "contact@mibexx.de"
+    }
+  ],
+  "require": {
+    "orbit-core/config-domain": "dev-master",
+    "orbit-core/infrastructure": "dev-master"
+  },
+  "require-dev": {
+    "codeception/codeception": "^3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "OrbitCore\\": "src/",
+      "OrbitCoreTest\\": "tests/"
+    }
+  }
+}
